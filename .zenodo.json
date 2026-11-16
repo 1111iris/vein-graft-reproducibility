@@ -1,0 +1,24 @@
+{
+  "title": "Cross-cohort reproducibility of human saphenous vein remodeling signatures and their directional alignment with occluded grafts: analysis code and result tables",
+  "creators": [
+    {
+      "name": "Tong, Siqi",
+      "affiliation": "Wuhan University of Science and Technology",
+      "orcid": "0009-0009-5679-9097"
+    }
+  ],
+  "description": "<p>Analysis code, locked gene sets, archived result tables, and reproduction evidence for the manuscript on cross-cohort reproducibility of the human saphenous vein ex vivo culture model. Five public GEO datasets from three research groups (two bulk RNA-seq culture cohorts, Visium and GeoMx spatial datasets, one occluded-graft cohort) were reanalysed under a locked analysis plan. Running <code>Rscript run_reproduction_audit.R</code> from the repository root downloads all inputs from GEO, hash-locks them, runs the full chain, executes 23 key-number and semantic checks, and compares every output byte-for-byte against the archived reference. Data files are downloaded from GEO at run time and are not redistributed.</p>",
+  "access_right": "open",
+  "license": "MIT",
+  "upload_type": "software",
+  "keywords": [
+    "saphenous vein",
+    "vein graft",
+    "ex vivo culture",
+    "reproducibility",
+    "RNA-seq",
+    "spatial transcriptomics",
+    "intimal hyperplasia"
+  ],
+  "version": "v1.0.0"
+}
