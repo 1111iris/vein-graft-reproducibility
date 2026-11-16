@@ -1,0 +1,11 @@
+"criterion","n","concordant","rate","wilson_lo","wilson_hi"
+"both FDR<0.05 (robust core)",4351,4148,0.9533,0.9467,0.9592
+"discovery FDR<0.05",9043,7630,0.8437,0.8361,0.8511
+"discovery FDR<0.01",7560,6592,0.872,0.8642,0.8793
+"discovery FDR<0.001",5716,5175,0.9054,0.8975,0.9127
+"discovery p<0.05",9403,7863,0.8362,0.8286,0.8436
+"both p<0.05",5307,4979,0.9382,0.9314,0.9444
+"discovery top 500 by FDR",500,490,0.98,0.9636,0.9891
+"discovery top 2000 by FDR",2000,1940,0.97,0.9616,0.9766
+"ALL common genes (baseline)",13168,9995,0.759,0.7517,0.7663
+"non-significant in both (baseline)",3166,1725,0.5449,0.5275,0.5621

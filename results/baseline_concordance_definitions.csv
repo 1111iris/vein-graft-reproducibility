@@ -1,0 +1,7 @@
+"definition","subset","n","concordant","rate"
+"culture meta vs occlusion","all common genes",13158,8046,0.611491108071135
+"discovery vs occlusion","all common genes",13158,7909,0.601079191366469
+"replication vs occlusion","all common genes",13158,8002,0.608147134822921
+"three-way (disc, rep, occ same direction)","all common genes",13158,6376,0.484572123423013
+"culture meta vs occlusion","discovery FDR<0.05",9038,5805,0.642288116840009
+"discovery vs occlusion","discovery FDR<0.05",9038,5788,0.640407169727816

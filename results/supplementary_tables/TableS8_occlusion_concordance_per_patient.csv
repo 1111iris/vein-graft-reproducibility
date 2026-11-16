@@ -1,0 +1,7 @@
+"analysis","patient","n_genes","concordant","prop"
+"per-patient",1,4147,3085,0.743911261152641
+"per-patient",2,4147,2779,0.670122980467808
+"per-patient",3,4147,2912,0.702194357366771
+"leave-one-patient-out (2-patient fits)",1,4147,1879,0.453098625512419
+"leave-one-patient-out (2-patient fits)",2,4147,2406,0.580178442247408
+"leave-one-patient-out (2-patient fits)",3,4147,2498,0.602363154087292

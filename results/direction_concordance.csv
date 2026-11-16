@@ -1,0 +1,5 @@
+"dataset","rule","n_sig","concordant","rate","binomP"
+"voom_primary","discFDR_rep_direction",9043,7630,0.8437465442884,4.94065645841247e-324
+"voom_primary","discFDR_repFDR_strict",4351,4148,0.953344058837049,0
+"edgeR_QL","discFDR_rep_direction",9035,7621,0.84349750968456,4.94065645841247e-324
+"DESeq2","discFDR_rep_direction",9773,8176,0.836590606773764,0
