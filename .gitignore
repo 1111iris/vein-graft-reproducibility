@@ -1,0 +1,21 @@
+# Data files are downloaded from GEO by R/00_download_data.R and are NOT
+# redistributed in this repository (see README). The download script
+# recreates data/ and geo_pages/ from scratch and hash-locks every file.
+data/
+geo_pages/
+
+# renv local library and helper files (renv.lock IS versioned)
+renv/
+.Rprofile
+activate.R
+
+# R session and OS artifacts
+*.Rproj
+.Rproj.user
+.Rhistory
+.RData
+.Renviron
+*.part
+build_input_inventory.log
+__pycache__/
+.DS_Store
