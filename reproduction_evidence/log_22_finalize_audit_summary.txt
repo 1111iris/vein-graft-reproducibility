@@ -1,0 +1,46 @@
+- The project is out-of-sync -- use `renv::status()` for details.
+reproducibility_audit_summary.csv rebuilt: 21 metrics
+                                              metric
+1                                          pearson_r
+2                                      pearson_ci_lo
+3                                      pearson_ci_hi
+4                                       spearman_rho
+5                                              slope
+6                                           slope_lo
+7                                           slope_hi
+8                                                 R2
+9                                          core_conc
+10                                            core_n
+11                                         clin_conc
+12                                            clin_n
+13                                    clin_wilson_lo
+14                                    clin_wilson_hi
+15                                       clin_vs50_p
+16 top30_overlap_culture_only_vs_occlusion_penalized
+17           occlusion_concordance_per_patient_range
+18     occlusion_concordance_leave_one_out_2pt_range
+19           attribution_fibroblast_share_lomo_range
+20               attribution_labeled_at_abs_r_gt_0.2
+21                           attribution_denominator
+                            value
+1               0.724607014692293
+2               0.716393159746952
+3               0.732620037633262
+4               0.693436875806147
+5               0.612085811836842
+6               0.602141095900838
+7               0.622030527772845
+8               0.525055325741277
+9                          0.9533
+10                           4351
+11              0.731854352544008
+12                           4147
+13              0.718161297066941
+14              0.745118246050291
+15           2.4891281376731e-203
+16                          27/30
+17                    67.0%-74.4%
+18                    45.3%-60.2%
+19 40.7%-56.1% (largest in 19/19)
+20  341/4019 (fibroblast largest)
+21                           4019

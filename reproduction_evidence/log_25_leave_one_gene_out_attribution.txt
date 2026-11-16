@@ -1,0 +1,56 @@
+- The project is out-of-sync -- use `renv::status()` for details.
+Warning message:
+package ‘Matrix’ was built under R version 4.4.3 
+core genes with valid original attribution: 4019 
+
+core genes that are themselves marker-set members:
+      celltype marker_gene
+1          SMC       ACTA2
+2          SMC       MYH11
+3          SMC       TAGLN
+4          SMC        CNN1
+5  Endothelium      PECAM1
+6  Endothelium         VWF
+7  Endothelium        CDH5
+8  Endothelium       CLDN5
+9   Fibroblast         DCN
+10  Fibroblast         LUM
+11  Fibroblast      COL1A2
+12  Fibroblast         GSN
+13      Immune       COTL1
+
+assignment-rule check: 78/4019 genes change label under a max-|r| rule versus the primary max-signed-r rule
+composition under max-|r| rule:
+
+        SMC Endothelium  Fibroblast      Immune   Adipocyte  Unassigned 
+       1152         506        2052         173         136           0 
+
+LOGO vs original assignment agreement: 4017/4019 = 100.0%
+
+composition (counts):
+          SMC Endothelium Fibroblast Immune Adipocyte Unassigned
+original 1128         525       2054    180       132          0
+logo     1129         525       2054    179       132          0
+
+composition (% of 4,019):
+          SMC Endothelium Fibroblast Immune Adipocyte Unassigned
+original 28.1        13.1       51.1    4.5       3.3          0
+logo     28.1        13.1       51.1    4.5       3.3          0
+
+marker-member core genes, original vs LOGO classification:
+     gene  marker_set    original        logo
+1   ACTA2         SMC         SMC         SMC
+2   MYH11         SMC         SMC         SMC
+3   TAGLN         SMC         SMC         SMC
+4    CNN1         SMC         SMC         SMC
+5  PECAM1 Endothelium Endothelium Endothelium
+6     VWF Endothelium Endothelium Endothelium
+7    CDH5 Endothelium Endothelium Endothelium
+8   CLDN5 Endothelium Endothelium Endothelium
+9     DCN  Fibroblast  Fibroblast  Fibroblast
+10    LUM  Fibroblast  Fibroblast  Fibroblast
+11 COL1A2  Fibroblast  Fibroblast         SMC
+12    GSN  Fibroblast  Fibroblast  Fibroblast
+13  COTL1      Immune      Immune  Fibroblast
+
+=== 25_leave_one_gene_out_attribution.R done ===

@@ -1,0 +1,28 @@
+- The project is out-of-sync -- use `renv::status()` for details.
+written to results/supplementary_tables :
+ [1] "TableS10_stratified_occlusion_concordance.csv"
+ [2] "TableS11a_leave_one_gene_out_composition.csv" 
+ [3] "TableS11b_marker_member_core_genes.csv"       
+ [4] "TableS11c_attribution_rule_comparison.csv"    
+ [5] "TableS2_full_DE_both_culture_cohorts.csv"     
+ [6] "TableS3_robust_core_4148_genes.csv"           
+ [7] "TableS4_fgsea_camera_all_cohorts.csv"         
+ [8] "TableS5_DE_method_sensitivity.csv"            
+ [9] "TableS6_leave_one_marker_out_attribution.csv" 
+[10] "TableS7_attribution_threshold_sensitivity.csv"
+[11] "TableS8_occlusion_concordance_per_patient.csv"
+[12] "TableS9a_top30_culture_only_ranking.csv"      
+[13] "TableS9b_top30_ranking_comparison.csv"        
+
+camera FDR fix check (culture cohorts):
+     dataset             set            P          FDR
+1  GSE310013 SMC_CONTRACTILE 3.782171e-06 1.891085e-05
+2  GSE326710 SMC_CONTRACTILE 5.409964e-06 2.704982e-05
+3  GSE310013  ECM_REMODELING 8.983503e-01 8.983503e-01
+4  GSE326710  ECM_REMODELING 2.067142e-01 3.082707e-01
+5  GSE310013    INFLAMMATION 7.368026e-03 1.842006e-02
+6  GSE326710    INFLAMMATION 2.466165e-01 3.082707e-01
+7  GSE310013      MS_CHANNEL 7.382459e-01 8.983503e-01
+8  GSE326710      MS_CHANNEL 5.191280e-01 5.191280e-01
+9  GSE310013      OSTEOGENIC 5.075600e-02 8.459334e-02
+10 GSE326710      OSTEOGENIC 2.573129e-03 6.432823e-03

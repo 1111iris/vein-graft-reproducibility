@@ -1,0 +1,41 @@
+- The project is out-of-sync -- use `renv::status()` for details.
+written: results/stratified_occlusion_concordance.csv
+        stratum_type                     stratum              cohort     n
+             overall all_commonly_detected_genes           all_genes 13158
+             overall                 robust_core                core  4147
+             program             SMC_CONTRACTILE                core     8
+             program              ECM_REMODELING                core     5
+             program                INFLAMMATION                core     4
+             program                  MS_CHANNEL                core     1
+             program                  OSTEOGENIC                core     3
+ effect_size_tertile                      T1_low                core  1382
+ effect_size_tertile                      T1_low all_genes_same_band  9558
+ effect_size_tertile                      T2_mid                core  1382
+ effect_size_tertile                      T2_mid all_genes_same_band  2061
+ effect_size_tertile                     T3_high                core  1383
+ effect_size_tertile                     T3_high all_genes_same_band  1539
+       cell_category                   Adipocyte                core   132
+       cell_category                 Endothelium                core   525
+       cell_category                  Fibroblast                core  2054
+       cell_category                      Immune                core   180
+       cell_category                         SMC                core  1128
+ concordant rate_pct
+       8046     61.1
+       3035     73.2
+          8    100.0
+          3     60.0
+          3     75.0
+          1    100.0
+          3    100.0
+        952     68.9
+       5419     56.7
+       1001     72.4
+       1439     69.8
+       1082     78.2
+       1188     77.2
+         91     68.9
+        337     64.2
+       1485     72.3
+        128     71.1
+        911     80.8
+written: results/supplementary_tables/TableS10_stratified_occlusion_concordance.csv

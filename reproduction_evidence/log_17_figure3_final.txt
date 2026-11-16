@@ -1,0 +1,5 @@
+- The project is out-of-sync -- use `renv::status()` for details.
+Figure 3 written; panel order:
+[1] "Smooth muscle contractile\n(paired P = 0.051)"
+[2] "Inflammatory\n(paired P = 0.188)"             
+[3] "Osteogenic\n(paired P = 0.023)"               

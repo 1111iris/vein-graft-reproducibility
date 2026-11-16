@@ -1,0 +1,12 @@
+- The project is out-of-sync -- use `renv::status()` for details.
+
+Category counts:
+
+            All other commonly detected genes 
+                                         8817 
+Robust core (same direction, both FDR < 0.05) 
+                                         4148 
+     Doubly significant, direction-discordant 
+                                          203 
+
+Stats: r=0.725 rho=0.693 slope=0.612 R2=0.525 n=13168

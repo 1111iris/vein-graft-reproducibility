@@ -1,0 +1,42 @@
+- The project is out-of-sync -- use `renv::status()` for details.
+Warning message:
+package ‘Matrix’ was built under R version 4.4.3 
+Top30 overlap culture-only vs occlusion-penalized: 27/30
+
+per-patient direction concordance (core vs occlusion):
+  patient n_genes concordant      prop
+1       1    4147       3085 0.7439113
+2       2    4147       2779 0.6701230
+3       3    4147       2912 0.7021944
+Warning messages:
+1: Zero sample variances detected, have been offset away from zero 
+2: Zero sample variances detected, have been offset away from zero 
+3: Zero sample variances detected, have been offset away from zero 
+
+leave-one-patient-out cohort concordance:
+  held_out n_patients n_genes concordant      prop
+1        1          2    4147       1879 0.4530986
+2        2          2    4147       2406 0.5801784
+3        3          2    4147       2498 0.6023632
+There were 50 or more warnings (use warnings() to see the first 50)
+
+leave-one-marker-out attribution range (n variants = 19 ):
+               celltype  min  max
+SMC                 SMC  909 1464
+Endothelium Endothelium  444  592
+Fibroblast   Fibroblast 1637 2254
+Immune           Immune  124  196
+Adipocyte     Adipocyte  101  141
+Unassigned   Unassigned    0    0
+There were 50 or more warnings (use warnings() to see the first 50)
+
+correlation-threshold sensitivity:
+  threshold SMC Endothelium Fibroblast Immune Adipocyte Unassigned
+1       0.2 153           7        180      1         0       3678
+2       0.3  46           4         58      1         0       3910
+3       0.4  13           4         12      1         0       3989
+
+GSE310013 samples: R1D0_001, R1D7_001, R2D0_001, R2D7_001, R3D0_001, R3D7_001, S1D0_001, S1D7_001, S2D0_001, S2D7_001, S3D0_001, S3D7_001 
+GSE326710 samples: Type, V1_D0 Read Count, V1_D7 Read Count, V2_D0 Read Count, V2_D7 Read Count, V3_D0 Read Count, V3_D7 Read Count, V4_D0 Read Count, V4_D7 Read Count 
+
+=== 16_inference_audit.R done ===

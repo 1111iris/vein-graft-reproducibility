@@ -1,0 +1,28 @@
+- The project is out-of-sync -- use `renv::status()` for details.
+Warning message:
+Zero sample variances detected, have been offset away from zero 
+Warning message:
+In preparePathwaysAndStats(pathways, stats, minSize, maxSize, gseaParam,  :
+  There are ties in the preranked stats (0.01% of the list).
+The order of those tied genes will be arbitrary, which may produce unexpected results.
+=== GSE241205 signature mean logFC (occluded vs spare; positive = up in occlusion) ===
+SMC_CONTRACTILE  ECM_REMODELING    INFLAMMATION      MS_CHANNEL      OSTEOGENIC 
+         -2.513           2.553           2.406           0.781           2.092 
+
+=== fgsea of locked sets on occlusion ranks ===
+              set NES_occlusion         pval         padj size
+1  ECM_REMODELING      1.751685 6.124796e-05 1.531199e-04    8
+2    INFLAMMATION      1.651254 7.641251e-04 1.273542e-03    7
+3      MS_CHANNEL      1.391540 7.213115e-02 7.213115e-02    8
+4      OSTEOGENIC      1.426504 5.025997e-02 6.282496e-02    5
+5 SMC_CONTRACTILE     -1.933776 2.512675e-06 1.256338e-05    8
+
+=== Model (GSE310013 NES) vs occlusion NES ===
+              set        NES NES_occlusion concordant
+1  ECM_REMODELING -0.9106435      1.751685      FALSE
+2    INFLAMMATION  1.9535892      1.651254       TRUE
+3      MS_CHANNEL -0.6728944      1.391540      FALSE
+4      OSTEOGENIC  1.6587674      1.426504       TRUE
+5 SMC_CONTRACTILE -2.1615123     -1.933776       TRUE
+
+PIEZO1 occluded vs spare: logFC 0.583 P 0.0298 

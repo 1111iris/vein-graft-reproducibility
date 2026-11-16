@@ -1,0 +1,81 @@
+- The project is out-of-sync -- use `renv::status()` for details.
+Warning message:
+package ‘Matrix’ was built under R version 4.4.3 
+robust core genes: 4148 
+core genes with valid Visium assignments: 4110 
+There were 50 or more warnings (use warnings() to see the first 50)
+attribution denominator audit: 4148 = 4110 in matrix (+38 not detected); 4110 = 4019 valid assignments (+91 no valid correlation)
+
+=== TOP 30 robust core genes ===
+      gene_symbol logFC_310013 logFC_326710 logFC_meta  FDR_meta best_celltype
+10475     SPARCL1        -5.48        -5.32      -5.45  0.00e+00    Fibroblast
+8456        PRELP        -5.09        -4.14      -4.93 4.72e-197    Fibroblast
+7530        P2RX1        -5.11        -3.71      -4.72 2.71e-197           SMC
+3623      FAM107A        -4.46        -5.96      -5.47 1.76e-158    Fibroblast
+4521          GSN        -4.53        -4.26      -4.45 1.72e-193    Fibroblast
+4778        HMCN2        -4.92        -3.69      -4.67 4.52e-173           SMC
+840          ASPN        -4.34        -4.00      -4.24 3.67e-190           SMC
+3413       ENTPD1        -3.99        -3.49      -3.79 1.69e-212           SMC
+3789       FBXL22        -5.25        -5.07      -5.18 2.93e-154           SMC
+4781        HMGA1         3.74         4.85       4.22 6.52e-189   Endothelium
+2618       CXCL14        -4.77        -6.57      -5.45 2.20e-287    Fibroblast
+5723         LDB3        -5.15        -4.22      -4.90 9.90e-156           SMC
+8366     PPP1R12B        -4.22        -3.81      -4.16 1.04e-175           SMC
+3979          FOS        -2.78        -6.86      -5.15 4.82e-140    Fibroblast
+1336      C1QTNF7        -4.12        -5.18      -4.65 3.87e-152    Fibroblast
+2204       CLSTN2        -3.89        -5.00      -4.11 2.77e-169    Fibroblast
+155         ACTG2        -4.82        -3.64      -4.69 1.79e-147           SMC
+2536        CSRP1        -4.16        -2.93      -3.70 4.52e-185           SMC
+3772        FBLN1        -4.56        -3.86      -4.38 2.16e-154    Fibroblast
+6804         MYOC        -5.77        -7.64      -6.29 1.49e-107    Fibroblast
+6289        MEOX2        -4.80        -4.04      -4.50 1.43e-149    Fibroblast
+6361       MGAT4C        -5.99        -4.86      -5.49 1.24e-122    Fibroblast
+10757        STUM        -4.89        -4.34      -4.68 4.67e-143           SMC
+4017          FRK        -4.38        -2.46      -3.59 2.29e-185           SMC
+3343          ELN        -4.71        -4.10      -4.30 6.48e-154    Fibroblast
+4569      GUCY1A1        -4.15        -2.48      -3.58 5.12e-178    Fibroblast
+254         ADH1B        -5.10        -3.64      -4.87 3.13e-125    Fibroblast
+10431      SORBS1        -3.87        -2.77      -3.59 4.26e-167           SMC
+10251       SLIT3        -4.12        -2.82      -3.76 3.86e-157    Fibroblast
+6043       MAMDC2        -4.89        -3.90      -4.64 4.04e-127    Fibroblast
+                   seg_region occ_logFC occ_concordant priority_score
+10475         MYH11neg-biased    -1.051           TRUE           1634
+8456                     <NA>    -2.068           TRUE            968
+7530  MYH11pos-biased (media)    -3.323           TRUE            928
+3623                     <NA>    -0.361           TRUE            862
+4521          MYH11neg-biased    -1.308           TRUE            858
+4778  MYH11pos-biased (media)    -2.491           TRUE            806
+840                      <NA>    -0.120           TRUE            803
+3413                     <NA>    -0.916           TRUE            802
+3789  MYH11pos-biased (media)    -2.053           TRUE            795
+4781  MYH11pos-biased (media)     2.833           TRUE            794
+2618          MYH11neg-biased     1.888          FALSE            781
+5723  MYH11pos-biased (media)    -2.239           TRUE            759
+8366  MYH11pos-biased (media)    -2.610           TRUE            728
+3979          MYH11neg-biased    -0.944           TRUE            717
+1336                     <NA>    -1.395           TRUE            705
+2204                     <NA>    -1.009           TRUE            693
+155   MYH11pos-biased (media)    -2.413           TRUE            688
+2536  MYH11pos-biased (media)    -2.784           TRUE            682
+3772          MYH11neg-biased    -0.336           TRUE            673
+6804                     <NA>    -3.322           TRUE            672
+6289                     <NA>    -1.223           TRUE            670
+6361                     <NA>    -0.486           TRUE            669
+10757                    <NA>    -2.353           TRUE            666
+4017                     <NA>    -1.683           TRUE            662
+3343          MYH11neg-biased    -0.625           TRUE            658
+4569                     <NA>    -2.082           TRUE            635
+254                      <NA>    -1.204           TRUE            607
+10431 MYH11pos-biased (media)    -2.789           TRUE            597
+10251                    <NA>    -0.745           TRUE            589
+6043          MYH11neg-biased    -1.431           TRUE            586
+
+Cell-type composition of full core:
+
+  Adipocyte Endothelium  Fibroblast      Immune         SMC 
+        132         525        2054         180        1128 
+Region composition:
+
+                diffuse         MYH11neg-biased MYH11pos-biased (media) 
+                    220                     613                     438 
+Occlusion concordance rate: 0.7318544 

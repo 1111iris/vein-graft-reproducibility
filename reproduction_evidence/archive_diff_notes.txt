@@ -1,0 +1,4 @@
+no archived output is missing from the fresh run
+no unexpected extra files were generated
+all 4 figure SVGs and 13 supplementary tables present
+all comparable non-PNG outputs byte-identical to archive

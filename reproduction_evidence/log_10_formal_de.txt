@@ -1,0 +1,84 @@
+- The project is out-of-sync -- use `renv::status()` for details.
+Warning message:
+replacing previous import ‘S4Arrays::makeNindexFromArrayViewport’ by ‘DelayedArray::makeNindexFromArrayViewport’ when loading ‘SummarizedExperiment’ 
+GSE310013 genes retained: 16538 ; GSE326710: 14317 
+converting counts to integer mode
+converting counts to integer mode
+
+=== Direction concordance ===
+       dataset                  rule n_sig concordant      rate        binomP
+1 voom_primary discFDR_rep_direction  9043       7630 0.8437465 4.940656e-324
+2 voom_primary discFDR_repFDR_strict  4351       4148 0.9533441  0.000000e+00
+3     edgeR_QL discFDR_rep_direction  9035       7621 0.8434975 4.940656e-324
+4       DESeq2 discFDR_rep_direction  9773       8176 0.8365906  0.000000e+00
+Warning messages:
+1: In preparePathwaysAndStats(pathways, stats, minSize, maxSize, gseaParam,  :
+  There are ties in the preranked stats (0.01% of the list).
+The order of those tied genes will be arbitrary, which may produce unexpected results.
+2: In preparePathwaysAndStats(pathways, stats, minSize, maxSize, gseaParam,  :
+  There are ties in the preranked stats (0.01% of the list).
+The order of those tied genes will be arbitrary, which may produce unexpected results.
+3: In preparePathwaysAndStats(pathways, stats, minSize, maxSize, gseaParam,  :
+  There are ties in the preranked stats (0.01% of the list).
+The order of those tied genes will be arbitrary, which may produce unexpected results.
+4: In preparePathwaysAndStats(pathways, stats, minSize, maxSize, gseaParam,  :
+  There are ties in the preranked stats (0.01% of the list).
+The order of those tied genes will be arbitrary, which may produce unexpected results.
+5: In preparePathwaysAndStats(pathways, stats, minSize, maxSize, gseaParam,  :
+  There are ties in the preranked stats (0.01% of the list).
+The order of those tied genes will be arbitrary, which may produce unexpected results.
+
+=== camera ===
+                            dataset             set nGenes Direction
+GSE310013_SMC_CONTRACTILE GSE310013 SMC_CONTRACTILE      8      Down
+GSE326710_SMC_CONTRACTILE GSE326710 SMC_CONTRACTILE      8      Down
+GSE310013_ECM_REMODELING  GSE310013  ECM_REMODELING      8      Down
+GSE326710_ECM_REMODELING  GSE326710  ECM_REMODELING      8        Up
+GSE310013_INFLAMMATION    GSE310013    INFLAMMATION      7        Up
+GSE326710_INFLAMMATION    GSE326710    INFLAMMATION      6        Up
+GSE310013_MS_CHANNEL      GSE310013      MS_CHANNEL      7      Down
+GSE326710_MS_CHANNEL      GSE326710      MS_CHANNEL      7      Down
+GSE310013_OSTEOGENIC      GSE310013      OSTEOGENIC      4        Up
+GSE326710_OSTEOGENIC      GSE326710      OSTEOGENIC      4        Up
+                                     P FDR
+GSE310013_SMC_CONTRACTILE 3.782171e-06  NA
+GSE326710_SMC_CONTRACTILE 5.409964e-06  NA
+GSE310013_ECM_REMODELING  8.983503e-01  NA
+GSE326710_ECM_REMODELING  2.067142e-01  NA
+GSE310013_INFLAMMATION    7.368026e-03  NA
+GSE326710_INFLAMMATION    2.466165e-01  NA
+GSE310013_MS_CHANNEL      7.382459e-01  NA
+GSE326710_MS_CHANNEL      5.191280e-01  NA
+GSE310013_OSTEOGENIC      5.075600e-02  NA
+GSE326710_OSTEOGENIC      2.573129e-03  NA
+
+=== fgsea ===
+                            dataset             set        NES         pval
+GSE310013_SMC_CONTRACTILE GSE310013 SMC_CONTRACTILE -2.1615123 6.572038e-11
+GSE326710_SMC_CONTRACTILE GSE326710 SMC_CONTRACTILE -1.8341545 3.042362e-05
+GSE310013_ECM_REMODELING  GSE310013  ECM_REMODELING -0.9106435 6.055046e-01
+GSE326710_ECM_REMODELING  GSE326710  ECM_REMODELING  1.5723563 4.658103e-02
+GSE310013_INFLAMMATION    GSE310013    INFLAMMATION  1.9535892 1.353650e-04
+GSE326710_INFLAMMATION    GSE326710    INFLAMMATION  1.4442805 6.759907e-02
+GSE310013_MS_CHANNEL      GSE310013      MS_CHANNEL -0.6728944 8.713768e-01
+GSE326710_MS_CHANNEL      GSE326710      MS_CHANNEL -0.9767931 5.237288e-01
+GSE310013_OSTEOGENIC      GSE310013      OSTEOGENIC  1.6587674 4.368479e-03
+GSE326710_OSTEOGENIC      GSE326710      OSTEOGENIC  1.6481613 9.919031e-03
+                                  padj size
+GSE310013_SMC_CONTRACTILE 6.572038e-11    8
+GSE326710_SMC_CONTRACTILE 3.042362e-05    8
+GSE310013_ECM_REMODELING  6.055046e-01    8
+GSE326710_ECM_REMODELING  4.658103e-02    8
+GSE310013_INFLAMMATION    1.353650e-04    7
+GSE326710_INFLAMMATION    6.759907e-02    6
+GSE310013_MS_CHANNEL      8.713768e-01    7
+GSE326710_MS_CHANNEL      5.237288e-01    7
+GSE310013_OSTEOGENIC      4.368479e-03    4
+GSE326710_OSTEOGENIC      9.919031e-03    4
+
+=== PIEZO1 ===
+    dataset     logFC        SE            P          FDR
+1 GSE310013 1.2816983 0.2144220 4.761893e-05 9.523787e-05
+2 GSE326710 0.1159255 0.1928815 5.646339e-01 5.646339e-01
+
+DONE

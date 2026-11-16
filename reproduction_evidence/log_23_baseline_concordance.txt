@@ -1,0 +1,16 @@
+- The project is out-of-sync -- use `renv::status()` for details.
+baseline concordance definitions:
+                                 definition             subset     n concordant
+2                 culture meta vs occlusion   all common genes 13158       8046
+3                    discovery vs occlusion   all common genes 13158       7909
+4                  replication vs occlusion   all common genes 13158       8002
+1 three-way (disc, rep, occ same direction)   all common genes 13158       6376
+6                 culture meta vs occlusion discovery FDR<0.05  9038       5805
+5                    discovery vs occlusion discovery FDR<0.05  9038       5788
+   rate
+2 0.611
+3 0.601
+4 0.608
+1 0.485
+6 0.642
+5 0.640

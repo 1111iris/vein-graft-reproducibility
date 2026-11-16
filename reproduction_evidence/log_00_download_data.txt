@@ -1,0 +1,34 @@
+- The project is out-of-sync -- use `renv::status()` for details.
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE310nnn/GSE310013/suppl/GSE310013_raw_counts.txt.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE326nnn/GSE326710/suppl/GSE326710_Raw_counts_all_samples.csv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE241nnn/GSE241205/suppl/GSE241205_gene_fpkm.txt.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE299nnn/GSE299685/suppl/GSE299685_Normalized_Counts.xlsx 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294393/suppl/GSM9294393_1D0_barcodes.tsv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294393/suppl/GSM9294393_1D0_features.tsv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294393/suppl/GSM9294393_1D0_matrix.mtx.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294393/suppl/GSM9294393_1D0_tissue_positions.csv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294394/suppl/GSM9294394_1D7_barcodes.tsv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294394/suppl/GSM9294394_1D7_features.tsv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294394/suppl/GSM9294394_1D7_matrix.mtx.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294394/suppl/GSM9294394_1D7_tissue_positions.csv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294395/suppl/GSM9294395_2D0_barcodes.tsv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294395/suppl/GSM9294395_2D0_features.tsv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294395/suppl/GSM9294395_2D0_matrix.mtx.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294395/suppl/GSM9294395_2D0_tissue_positions.csv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294396/suppl/GSM9294396_2D7_barcodes.tsv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294396/suppl/GSM9294396_2D7_features.tsv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294396/suppl/GSM9294396_2D7_matrix.mtx.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294396/suppl/GSM9294396_2D7_tissue_positions.csv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294397/suppl/GSM9294397_3D0_barcodes.tsv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294397/suppl/GSM9294397_3D0_features.tsv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294397/suppl/GSM9294397_3D0_matrix.mtx.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294397/suppl/GSM9294397_3D0_tissue_positions.csv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294398/suppl/GSM9294398_3D7_barcodes.tsv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294398/suppl/GSM9294398_3D7_features.tsv.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294398/suppl/GSM9294398_3D7_matrix.mtx.gz 
+downloading: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9294nnn/GSM9294398/suppl/GSM9294398_3D7_tissue_positions.csv.gz 
+
+Done. 29 files in data/ (28 downloaded now, 0 already present).
+
+No warnings were raised during download or verification.
+All input verification checks passed.
