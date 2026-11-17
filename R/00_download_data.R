@@ -142,7 +142,9 @@ download_one <- function(url, dest) {
         cat(sprintf("  WARNING (attempt %d): %s | %s\n", attempt, url, w))
       warn_records <<- rbind(warn_records,
                              data.frame(url = url, attempt = attempt,
-                                        message = warns, stringsAsFactors = FALSE))
+                                        message = warns,
+                                        final_status = NA_character_,
+                                        stringsAsFactors = FALSE))
     }
     if (ok && (!file.exists(tmp) || file.size(tmp) == 0)) {
       if (attempt == 3) cat("  DOWNLOAD EMPTY:", url, "\n")
